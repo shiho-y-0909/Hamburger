@@ -23,6 +23,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 150px;
 }
 
 .l-header__title {
@@ -33,20 +34,57 @@ html {
 
 .l-header__title h1 {
     text-align: center;
+    margin-left: 60px;
 }
 
 .h1 {
     height: 300px;
     width: 345px;
+    
 }
 .h1 img {
 
 }
 
 .c-search-form {
+    position: relative;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 200px;
+    margin: 4rem auto 3.9rem auto;
 }
+
+.c-search-form__keyword {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.c-search-form__keyword input {
+    width: 250px;
+    height: 45px;
+    padding: 5px 15px 5px 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+}
+
+.c-search-form__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.fa-solid fa-magnifying-glass {
+    font-family: "Font Awesome 5 Free";
+    content: '\f002';
+}
+
+
+
