@@ -85,5 +85,97 @@ html {
     font-size: 1.6rem;
     color: #707070;
 }
+/*ダミーサイト始め*/
+.l-main {
+    position: relative;
+}
 
- 
+.c-main-background__title h2 {
+    position: absolute;
+    color:#FFFFFF;
+    font-family: "M PLUS 1p";
+    font-weight: 700;
+    top: 100px;
+    width: 240px;
+    height: 59px;
+    left: 86px;
+    margin: 12.2rem auto 11.1rem 2.5rem;
+    font-size: 40px;
+    line-height: 59.4px;
+    
+}
+.c-main-background__title img {
+    width: 1200px;
+    height: 530px;
+}
+/*ダミーサイト終わり*/
+
+.p-category {
+    position: relative;
+    top: 100px;
+
+}
+
+.c-background__takeout img {
+    width: auto;
+    height: auto;
+    left: 119px;
+}
+
+.c-inner-title h3 {
+    position: absolute;
+    top: 10px;
+    color:#FFFFFF;
+    font-family: "Roboto";
+    width: 319px;
+    height: 94px;
+    font-size: 80px;
+
+}
+
+.c-takeout__wrapper {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background: rgba(255, 255, 255, 0.79);
+    margin-bottom: 3.2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+.c-background__inner-list {
+    margin: 10px;
+}
+      
+.c-takeout__inner--white {
+    bottom: 100px;
+    width: 584px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.79);
+}
+
+.c-takeout__inner-text {
+    padding: 1.4rem 2rem 1.4rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-takeout__inner-text dt {
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+  
+      
