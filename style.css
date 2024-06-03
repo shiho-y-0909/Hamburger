@@ -113,7 +113,7 @@ html {
 .p-category {
     position: relative;
     top: 100px;
-
+    left: 110px;
 }
 
 .c-background__takeout img {
@@ -123,59 +123,94 @@ html {
 }
 
 .c-inner-title h3 {
-    position: absolute;
-    top: 10px;
-    color:#FFFFFF;
+    position: relative;
+    color: #EAEAEA;
     font-family: "Roboto";
     width: 319px;
     height: 94px;
     font-size: 80px;
-
+    bottom: 1200px;
 }
 
-.c-takeout__wrapper {
-    height: auto;
-    width: 100%;
-    overflow: hidden;
-    background-size: cover;
-    background: rgba(255, 255, 255, 0.79);
-    margin-bottom: 3.2%;
-    display: flex;
-    flex-direction: column;
-}
-
-.c-list {
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-}
 .c-background__inner-list {
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 0 15px;
 }
       
-.c-takeout__inner--white {
-    bottom: 100px;
+.c-takeout__inner--white1 {
+    bottom: 410px;
     width: 584px;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     background: rgba(255, 255, 255, 0.79);
+    left: 110px;
 }
 
-.c-takeout__inner-text {
+.c-takeout__inner-text1 {
     padding: 1.4rem 2rem 1.4rem 2rem;
     display: flex;
     flex-direction: column;
 }
 
-.c-takeout__inner-text dt {
+.c-takeout__inner-text1 dt {
     font-weight: bold;
     height: auto;
     width: auto;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     display: flex;
     flex-direction: column;
     position: relative;
 }
-  
-      
+
+.c-takeout__inner-text1 dd {
+    font-weight: 400;
+    font-size: 1.6rem;
+    height: auto;
+    width: auto;
+    line-height: 1.7;
+    flex-direction: column;
+    position: relative;
+    padding-top: 10px;
+}
+
+.c-takeout__inner--white2 {
+    bottom: 390px;
+    width: 584px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.79);
+    left: 110px;
+}
+
+.c-takeout__inner-text2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem 2rem 1.4rem 2rem;
+}
+
+.c-takeout__inner-text2 dt {
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.c-takeout__inner-text2 dd {
+    font-weight: 400;
+    font-size: 1.6rem;
+    height: auto;
+    width: auto;
+    line-height: 1.7;
+    flex-direction: column;
+    position: relative;
+    padding-top: 10px;
+}
+
+/* Eat in Category */
+
